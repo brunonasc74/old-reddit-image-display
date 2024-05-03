@@ -1,7 +1,7 @@
 {
   "manifest_version": 3,
   "name": "Old Reddit Image Display",
-  "version": "0.3.0",
+  "version": "0.3.1",
   "description": "This is a description of my Chrome extension.",
   "action": {
     "deault_popup": "./popup/hello.html",
@@ -10,7 +10,8 @@
   "content_scripts": [
     {
       "matches": ["https://old.reddit.com/*"],
-      "js": ["content-script.js"]
+      "js": ["content-script.js"],
+      "css": ["style.css"]
     }
   ]
 }
