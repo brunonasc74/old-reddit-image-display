@@ -1,10 +1,10 @@
 {
   "manifest_version": 3,
   "name": "Old Reddit Image Display",
-  "version": "0.3.1",
+  "version": "0.3.2",
   "description": "This is a description of my Chrome extension.",
   "action": {
-    "deault_popup": "./popup/hello.html",
+    "default_popup": "./popup/hello.html",
     "default_icon": "./image/hello_extention.png"
   },
   "content_scripts": [
